@@ -44,7 +44,7 @@ img {
 }
 
 .masthead {
-    background-color: #C0C0C0;
+    background-color: white;
     overflow: hidden;
 }
 
@@ -57,26 +57,31 @@ img {
 .billboard {
     overflow: hidden;
     background-image: url(../images/jerrys.jpg);
+    background-size: 100%;
     background-color: #C0C0C0;
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 18rem;
-    margin: 0 0 2rem;
-    padding: -3rem 0;
+    background-position: top center;
+    margin: 0 0 3rem;
 }
 
 h1 {
-    margin: 8rem 0;
+    margin: 40% 0 0;
     color: red;
     font-weight: normal;
     font-size: 2rem;
     letter-spacing: -.1rem;
     padding: 0;    
+    
+    padding: 1.5rem 5%;
 }
 
 p {
     line-height: 1.5rem;
     margin: 0 0 1.5rem;
+}
+
+li {
+    line-height: 1.5rem;
 }
 
 .dropcap:first-letter {
@@ -149,8 +154,9 @@ figcaption {
 }
 
 footer {
-    background-color: black;
+    background-color: white;
     overflow: hidden;
+    padding: 1.5rem 5% 0;
 }
 
 .bottomlogo {
@@ -162,9 +168,10 @@ footer {
 
 footer p {
     font-size: .75rem;
-    color: yellow;
 }
 
-footer a {
-    color: white;
+footer p:nth-child(2) {
+     margin: 3rem 0 0; 
 }
+footer a {
+    
