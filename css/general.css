@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }/* Firefox */
+@-ms-viewport { width: device-width; scale: 1; }/* Internet Explorer */
+@-o-viewport { width: device-width; scale: 1; }/* Opera */
+@-webkit-viewport { width: device-width; scale: 1; }/* Safari & Chrome */
+@viewport { width: device-width; scale: 1; }/* W3C Standard */
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+        
+/* Controls the zoom of the type on mobile */
+    -moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+
+/* Control the type size on mobile and desktop */
+    
+    font-size: 100%; /* 100% = 16px = 1rem */
+    font-family: Gerogia, serif;
+}
+
+body {
+    background-color: #C0C0C0;
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    margin: 0;
+    padding: 0 4%;
+    overflow: hidden;
+}
+
+img {
+	width: 100%; /* Images are responsive */
+    display: block;
+}
+
+.masthead {
+    background-color: #C0C0C0;
+    overflow: hidden;
+}
+
+.logo {
+    height: 2rem;
+    width: auto;
+    margin: .5rem 1%;
+}
+
+.billboard {
+    overflow: hidden;
+    background-image: url(../images/jerrys.jpg);
+    background-color: #C0C0C0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 18rem;
+    margin: 0 0 2rem;
+    padding: -3rem 0;
+}
+
+h1 {
+    margin: 8rem 0;
+    color: red;
+    font-weight: normal;
+    font-size: 2rem;
+    letter-spacing: -.1rem;
+    padding: 0;    
+}
+
+p {
+    line-height: 1.5rem;
+    margin: 0 0 1.5rem;
+}
+
+.dropcap:first-letter {
+    font-size: 6rem;
+    font-weight: bold;
+    float: left;
+    margin: 2rem 1rem 1.5rem 0;
+    color: red;
+}
+
+h2 {
+    color: red;
+    margin: 1rem 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0;
+}
+
+ol,
+ul {
+    margin: 0 0 2rem;
+}
+ul li {
+    list-style-type: square;
+}
+    
+blockquote {
+    margin: 0;
+    padding: 0 0 0 10%;
+    overflow: hidden;
+}
+
+blockquote span {
+    color: red;
+    font-weight: bold;
+    float: right;
+    margin: 2rem 0;
+}
+
+blockquote p {
+    font-size: 1.4rem;
+    padding: 1rem 0 0;
+}
+
+blockquote p:before {
+    content: "“";
+    font-size: 2.5rem;
+    color: yellow;
+    float: left;
+    margin: 0;
+}
+
+blockquote p:after {
+    content: "”";
+    font-size: 1.8rem;
+    color: yellow;
+    position: absolute;
+    margin:0;
+    
+}
+
+figure {
+    margin: 0 auto 1.5rem; /* auto in case we want smaller */
+    width: 100%; /* Size can be smaller than, but no larger than 100%*/
+}
+
+figcaption {
+    font-size: .80rem;
+    margin: .5rem 0 0;
+}
+
+footer {
+    background-color: black;
+    overflow: hidden;
+}
+
+.bottomlogo {
+    height: 1.5rem;
+    width: auto;
+    margin: .5rem 1%;
+    float: right;    
+}
+
+footer p {
+    font-size: .75rem;
+    color: yellow;
+}
+
+footer a {
+    color: white;
+}
